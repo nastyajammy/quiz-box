@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .wrapper__content--main{
-    background: url(/image/background/background1.png) center top, url(/image/background/background2.png) center bottom;
+    background: url(../../image/background/background1.png) center top, url(../../image/background/background2.png) center bottom;
     background-repeat: no-repeat;
 }
 

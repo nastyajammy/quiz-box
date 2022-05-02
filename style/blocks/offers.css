@@ -10,7 +10,7 @@
 }
 
 .title--new:after{
-    content:url(/image/icons/new.png);
+    content:url(../../image/icons/new.png);
     margin-left: 9px;
     width: 42px;
     height: 41px;
