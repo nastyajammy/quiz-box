@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #17191C;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    color: inherit;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper__content{
+    position: relative;
+}
+
+.wrapper__content--main{
+    background: url(/image/background/background1.png) center top, url(/image/background/background2.png) center bottom;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}

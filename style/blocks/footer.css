@@ -1,0 +1,79 @@
+.footer__container--content{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.footer{
+    height: 110px;
+    bottom: 0;
+    position: relative;
+    margin-top: 13px;
+}
+
+.menu__footer{
+    top: 40px;
+    left: 290px;
+    position: absolute;
+}
+
+.social{
+    top: 36px;
+    right: 250px;
+    position: absolute;
+}
+
+
+.social__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+
+.social__link{
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.social__item--telegram .social__link{
+    background-image: url(../image/social/telegram.png);
+}
+
+.social__item--telegram .social__link:hover{
+    background-image: url(../image/social/telegram_hover.png);
+}
+
+.social__item--vk .social__link{
+    background-image: url(../image/social/vk.png);
+}
+
+.social__item--vk .social__link:hover{
+    background-image: url(../image/social/vk_hover.png);
+}
+
+.social__item--facebook .social__link{
+    background-image: url(../image/social/fb.png);
+}
+
+.social__item--facebook .social__link:hover{
+    background-image: url(../image/social/fb_hover.png);
+}
+
+.social__item--instagram .social__link{
+    background-image: url(../image/social/inst.png);
+}
+
+.social__item--instagram .social__link:hover{
+    background-image: url(../image/social/inst_hover.png);
+}
+
+.contacts__call{
+    color: #9A9A9A;
+    font-size: 11px;
+}

@@ -1,0 +1,30 @@
+.hello__title{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    width: 645px;
+}
+
+.hello__subtitle{
+    font-size: 21px;
+    margin-bottom: 74px;
+    margin-left: 2px;
+}
+
+.button{
+    background: #8F00FF;
+    border-radius: 5px;
+    padding: 18px 39px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover{
+    background: #741BBA;
+    box-shadow: 0 0 5px 0 #741BBA;
+}
