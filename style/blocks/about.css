@@ -12,10 +12,12 @@ width: 489px;
 height: 505px;
 background: url(../../image/kviz_pliz__nizhnii_novgorod.png) center center / cover no-repeat;
 position: relative;
+border-radius: 5px;
 }
 
 .about__content{
 background: linear-gradient(to top right, #8f00ff 25%, #148CFF 100%);
+border-radius: 5px;
 padding: 70px 81px;
 padding-bottom: 20px;
 display: inline-block;
