@@ -1,6 +1,5 @@
 .offers{
-    margin-top: 187px;
-    margin-bottom: 125px;
+    margin-bottom: 115px;
 }
 
 .title{
@@ -16,17 +15,19 @@
     height: 41px;
 }
 
+.offers__list{
+    display: flex;
+    justify-content: space-between;
+}
+
 .offers__item{
     min-height: 450px;
     background: #fff;
     border-radius: 6px;
-    display: inline-block;
-    margin-right: 22px;
-    width: 362px;
-}
-
-.offers__item:last-child{
-  margin-right: 0;
+    width: calc(100% / 3 - 18px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .offers__header{
@@ -37,6 +38,9 @@
 .offers__content{
     padding: 27px 20px;
     color: #303030;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .offers__title{
@@ -47,16 +51,14 @@
 }
 
 .offers__features{
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
 }
 
 .offers__feature{
-    display: inline-block;
-    vertical-align: top;
     text-align: left;
-    width: 115px;
-    margin-right: 43px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .offers__feature:last-child{
@@ -64,18 +66,16 @@
 }
 
 .offers__feature--img{
-    margin: 0px 5px 0px 4px;
-    display: inline-block;
-    vertical-align: top;
+    margin: 0px 5px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .offers__feature--text{
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
     margin: 2px 0px 0px 0px;
-    position: absolute;
 }
-
 
 .offers__text{
     font-size: 14px;
@@ -84,10 +84,12 @@
 }
 
 .button__light{
+    display: flex;
+    justify-content: flex-start;
     color: #8F00FF;
     text-decoration: none;
-    width: 362px;
-    height: 305px;
+    width: 135px;
+    height: 55px;
     background: #fff;
     border: 1px solid #8F00FF;
     box-sizing: border-box;
@@ -96,6 +98,7 @@
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: auto;
 }
 
 .button__light:hover{

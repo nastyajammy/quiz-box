@@ -2,24 +2,39 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer__container{
+    margin-top: auto;
+}
 
-.footer{
+.footer__container--section{
     height: 110px;
-    bottom: 0;
-    position: relative;
     margin-top: 13px;
 }
 
+.footer{
+    bottom: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__col{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--align-right{
+    justify-content: flex-end;
+}
+
 .menu__footer{
-    top: 40px;
     left: 290px;
     position: absolute;
 }
 
 .social{
-    top: 36px;
-    right: 250px;
-    position: absolute;
+    margin-right: 74px;
 }
 
 

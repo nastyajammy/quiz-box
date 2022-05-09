@@ -1,7 +1,18 @@
 .header{
-    height: 120px;
-    position: relative;
-    margin-bottom: 89px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header__col{
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align-right{
+    justify-content: flex-end;
 }
 
 .logo__img{
@@ -10,16 +21,9 @@
 
 .logo{
     display: block;
-    position: absolute;
-    top: 37px;
-    left: 0;
+    margin-right: 100px;
 }
 
-.menu{
-    top: 38px;
-    left: 419px;
-    position: absolute;
-}
 
 .menu__item{
     display: inline-block;
@@ -45,9 +49,6 @@ color:#8F00FF;
 }
 
 .contacts{
-    top: 28px;
-    right: 0;
-    position: absolute;
     text-align: right;
     font-style: normal;
 }
