@@ -13,7 +13,6 @@
 
 .footer{
     bottom: 0;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,9 +27,10 @@
     justify-content: flex-end;
 }
 
-.menu__footer{
-    left: 290px;
-    position: absolute;
+.footer__logo{
+    width: 160px;
+    height: 35px;
+    margin-right: 120px;
 }
 
 .social{
